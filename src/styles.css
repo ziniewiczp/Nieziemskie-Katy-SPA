@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* use to avoid hiding content by navigation bar while jumping to section */
+h1::before {
+  display: block;
+  content: " ";
+  margin-top: -50px;
+  height: 50px;
+  visibility: hidden;
+  pointer-events: none;
+}
